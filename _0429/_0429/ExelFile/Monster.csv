@@ -1,0 +1,3 @@
+name,hp,speed,attackPower,exp,coin
+slime,100,20,10,30,50
+monster,50,50,50,50,50
