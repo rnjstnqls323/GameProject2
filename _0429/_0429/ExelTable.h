@@ -19,6 +19,7 @@ struct StrongDatas {
 	int level;
 	string skill;
 	int damage;
+	int mp;
 };
 
 Datas LoadDatas(string name);
