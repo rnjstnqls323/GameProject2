@@ -4,7 +4,7 @@
 struct Datas {
 	string name; //->ÆÈ¶óµò
 	int hp;
-	int attackPower;
+	int attackPower; //°ø°Ý·Â
 	int exp;
 	int coin;
 	int level;

@@ -24,15 +24,10 @@ enum HeroJob
 	Wizard,
 	Thief
 };
-enum BossName
-{
-	고블린킹,
-	
-};
 enum Item 
 {
 	HPPotion,
-	SpeedPotion,
+	ManaPotion,
 	APPotion
 };
 enum StatType
@@ -41,5 +36,8 @@ enum StatType
 	AttackPower,
 	Exp,
 	Coin,
-	Mp
+	Mp,
+	Name,
+	SkillName,
+	SkillDamage
 };
