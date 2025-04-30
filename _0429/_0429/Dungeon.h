@@ -1,7 +1,13 @@
 #pragma once
 #include "Framework.h"
 
+class Dungeon {
 
+public:
+
+private:
+
+};
 
 PlayerState Dungeon(const int &dungeonLevel, Hero* player);
 void CreateMonsters(vector<Monster>&monsters,string name,const int &number);

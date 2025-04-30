@@ -7,18 +7,11 @@ struct Datas {
 	int attackPower;
 	int exp;
 	int coin;
-};
-struct StrongDatas {
-	string name;
-	int hp;
-	int attackPower;
-	int exp;
-	int coin;
 	int level;
 	string skill;
-	int damage;
+	int skillDamage;
 	int mp;
 };
 
 Datas LoadDatas(string name);
-StrongDatas LoadStrongDatas(string name, string status);
+

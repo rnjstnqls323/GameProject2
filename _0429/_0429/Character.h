@@ -15,6 +15,8 @@ public:
         case StatType::AttackPower: target->data.attackPower += value; break;
         case StatType::Exp:         target->data.exp += value; break;
         case StatType::Coin:        target->data.coin += value; break;
+        case StatType::Mp:        target->data.mp += value; break;
+
         }
     }
 

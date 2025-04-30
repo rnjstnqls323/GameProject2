@@ -40,5 +40,6 @@ enum StatType
 	Hp,
 	AttackPower,
 	Exp,
-	Coin
+	Coin,
+	Mp
 };

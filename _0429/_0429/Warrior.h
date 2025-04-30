@@ -1,38 +1,22 @@
 #pragma once
 #include "Framework.h"
-#include "ExelTable.h"
-#include "Character.h"
-#include "Hero.h"
 
-enum class WarriorJobType
-{
-	Normal,
-	Paladine,
-	Darknight
-};
 
-class Warrior
+
+
+class Warrior : public Hero
 {
 public:
-	Warrior(HeroDatas data); int warrioroneSkill;
+	Warrior(Datas data);
 	~Warrior();
 
-	HeroDatas GatData() { return data; }
-	void AttackTarget(Warrior* target);
-	bool isDead() const;
 
-	void warriorSkill(Warrior* target);
-	void jobFunction();
-	WarriorJobType GetJobType() const { return jobType; }
 
+	bool Skill(Character* target) override;
+	string JobFunction() override;
+	void Promote(string job) override;
 protected:
-	HeroDatas data;
-	WarriorJobType jobType;
-
-	void promotePaladine();
-	void promoteDarknight();
-	void paladskill();// 팔라딘 전직 스킬 체력증가
-	void darknightskill(Warrior* targets[], int targetCount);//다크나이트 전직 스킬 다중공격
+	Datas data;
 
 
 };
