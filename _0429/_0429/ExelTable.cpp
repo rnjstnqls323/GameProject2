@@ -1,10 +1,21 @@
 #include <fstream>
 #include "ExelTable.h"
 
-Datas LoadDatas(string name)
+Datas LoadDatas(string name, string type)
 {
 	Datas monster = {};
-	ifstream file(MONSTER_DATA_PATH);
+	string path = "";
+	if (type == "monster")
+	{
+		path = MONSTER_DATA_PATH;
+	}
+	else if (type == "player")
+	{
+		path = HERO_DATA_PATH;
+	}
+	
+	ifstream file(path);
+
 	if (!file.is_open()) {
 		cout << "파일 오픈 실패" << endl;
 		return monster;

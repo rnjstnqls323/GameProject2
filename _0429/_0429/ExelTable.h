@@ -13,5 +13,6 @@ struct Datas {
 	int mp;
 };
 
-Datas LoadDatas(string name);
+Datas LoadDatas(string name,string type);
+
 
