@@ -19,7 +19,8 @@ public:
         }
     }
 
-    void AttackTarget(Character* target);
+    virtual void Fight(Character* target) {};
+    void AttackTarget(Character* target); //∆Ú≈∏
     bool IsDead(Character* target);
 
 protected:
