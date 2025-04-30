@@ -12,9 +12,9 @@ public:
 
 
 
-	bool Skill(Character* target) override;
+	void Skill(Character* target) override;
 	string JobFunction() override;
-	void Promote(string job) override;
+	void Promote() override;
 protected:
 	Datas data;
 
