@@ -4,7 +4,6 @@
 struct Datas {
 	string name;
 	int hp;
-	int speed;
 	int attackPower;
 	int exp;
 	int coin;
@@ -12,7 +11,6 @@ struct Datas {
 struct StrongDatas {
 	string name;
 	int hp;
-	int speed;
 	int attackPower;
 	int exp;
 	int coin;

@@ -38,7 +38,6 @@ enum Item
 enum StatType
 {
 	Hp,
-	Speed,
 	AttackPower,
 	Exp,
 	Coin

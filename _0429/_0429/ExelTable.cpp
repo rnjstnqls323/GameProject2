@@ -18,8 +18,6 @@ Datas LoadDatas(string name)
 		getline(ss, monster.name, ',');
 		getline(ss, token, ',');
 		monster.hp = stoi(token);
-		getline(ss, token, ',');
-		monster.speed = stoi(token);
 		
 		getline(ss, token, ',');
 		monster.attackPower = stoi(token);
@@ -59,8 +57,6 @@ StrongDatas LoadStrongDatas(string name,string status)
 
 		getline(ss, token, ',');
 		data.hp = stoi(token);
-		getline(ss, token, ',');
-		data.speed = stoi(token);
 		getline(ss, token, ',');
 		data.attackPower = stoi(token);
 		getline(ss, token, ',');

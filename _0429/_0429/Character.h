@@ -12,7 +12,6 @@ public:
         switch (type)
         {
         case StatType::Hp:          target->data.hp += value; break;
-        case StatType::Speed:       target->data.speed += value; break;
         case StatType::AttackPower: target->data.attackPower += value; break;
         case StatType::Exp:         target->data.exp += value; break;
         case StatType::Coin:        target->data.coin += value; break;
