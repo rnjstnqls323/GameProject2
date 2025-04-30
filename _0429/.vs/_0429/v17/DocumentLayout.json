@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,12 +18,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\ExelTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\ExelTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\ExelTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\ExelTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -37,10 +47,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\LichKing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\LichKing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Dungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Dungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,6 +164,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Main.cpp",
               "RelativeDocumentMoniker": "_0429\\Main.cpp",
@@ -154,10 +173,21 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-30T05:22:06.011Z",
+=======
+              "Title": "ExelTable.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\ExelTable.h",
+              "RelativeDocumentMoniker": "_0429\\ExelTable.h",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\ExelTable.h",
+              "RelativeToolTip": "_0429\\ExelTable.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T05:10:23.293Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
               "Title": "LichKing.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\LichKing.cpp",
@@ -167,11 +197,65 @@
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-30T05:16:37.867Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "Dungeon.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Dungeon.h",
+              "RelativeDocumentMoniker": "_0429\\Dungeon.h",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Dungeon.h",
+              "RelativeToolTip": "_0429\\Dungeon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T05:08:17.794Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 5,
+              "Title": "Warrior.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Warrior.cpp",
+              "RelativeDocumentMoniker": "_0429\\Warrior.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Warrior.cpp",
+              "RelativeToolTip": "_0429\\Warrior.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T05:07:21.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExelTable.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\ExelTable.cpp",
+              "RelativeDocumentMoniker": "_0429\\ExelTable.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\ExelTable.cpp",
+              "RelativeToolTip": "_0429\\ExelTable.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwv0sAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T05:07:16.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Framework.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Framework.h",
+              "RelativeDocumentMoniker": "_0429\\Framework.h",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Framework.h",
+              "RelativeToolTip": "_0429\\Framework.h",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-30T05:07:14.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "Hero.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Hero.h",
               "RelativeDocumentMoniker": "_0429\\Hero.h",
