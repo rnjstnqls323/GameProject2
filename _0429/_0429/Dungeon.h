@@ -1,6 +1,5 @@
 #pragma once
 #include "Framework.h"
-#include "Class.h"
 
 
 

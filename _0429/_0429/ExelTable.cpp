@@ -72,6 +72,8 @@ StrongDatas LoadStrongDatas(string name,string status)
 		getline(ss, data.skill, ',');
 		getline(ss, token, ',');
 		data.damage = stoi(token);
+		getline(ss, token, ',');
+		data.mp = stoi(token);
 		if (data.name == name)
 		{
 			return data;
