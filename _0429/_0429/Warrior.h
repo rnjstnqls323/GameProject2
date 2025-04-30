@@ -11,7 +11,5 @@ public:
 	string JobFunction() override;
 	void Promote() override;
 protected:
-	Datas data;
-
 
 };

@@ -19,13 +19,7 @@ enum DungeonLevel
 	Level3=3,
 	Boss=4
 };
-enum HeroJob
-{
-	Warrior,
-	Archer,
-	Wizard,
-	Thief
-};
+
 enum Item 
 {
 	HPPotion,

@@ -1,5 +1,8 @@
-#include "Framework.h"
+#include "Warrior.h"
 #include "GameManager.h"
+#include "Framework.h"
+
+
 
 
 Hero* GameManager::ChoiceJobs()

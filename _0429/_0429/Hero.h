@@ -1,5 +1,4 @@
 #pragma once
-#include "Framework.h"
 #include "Character.h"
 
 
@@ -16,7 +15,6 @@ public:
 
 
 private:
-	Datas data;
 
 
 };

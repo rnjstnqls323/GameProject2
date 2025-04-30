@@ -1,4 +1,2 @@
-﻿  GameManager.cpp
-C:\Users\rnjst\source\repos\_0429\_0429\GameProject2\_0429\_0429\GameManager.cpp(19,16): error C2061: 구문 오류: 식별자 'Warrior'
-  Store.cpp
-  코드를 생성하고 있습니다...
+﻿  Store.cpp
+  _0429.vcxproj -> C:\Users\rnjst\source\repos\_0429\_0429\GameProject2\_0429\x64\Debug\_0429.exe

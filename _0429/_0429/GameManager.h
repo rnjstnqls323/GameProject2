@@ -3,7 +3,7 @@
 #include "Dungeon.h"
 #include "Store.h"
 #include "Hero.h"
-#include "Warrior.h"
+
 
 class GameManager
 {

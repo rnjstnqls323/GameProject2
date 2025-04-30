@@ -24,7 +24,7 @@ GameState Store::VisitStore(Hero* player)
 				break;
 			}
 			AddHpPotion(player);
-			player->SetData(player, Coin, player->GetData().coin - 30);
+			
 			break;
 		case 2:
 			if (player->GetData().coin < 20) {
@@ -32,7 +32,7 @@ GameState Store::VisitStore(Hero* player)
 				break;
 			}
 			AddManaPotion(player);
-			player->SetData(player, Coin, player->GetData().coin - 20);
+			
 			break;
 		case 3:
 			if (player->GetData().coin < 40) {
@@ -40,9 +40,10 @@ GameState Store::VisitStore(Hero* player)
 				break;
 			}
 			AddAttackPotion(player);
-			player->SetData(player, Coin, player->GetData().coin - 40);
+			
 			break;
 		case 4:
+			
 			break;
 		default:
 			cout << "상점을 종료합니다." << endl;
@@ -56,14 +57,21 @@ GameState Store::VisitStore(Hero* player)
 void Store::AddHpPotion(Hero* player)
 {
 	player->SetData(player, Hp, player->GetData().hp + hPPotion);
+	player->SetData(player, Coin, player->GetData().coin - 30);
+	cout << "당신의 체력 : " << player->GetData().hp<<endl;
 }
 
 void Store::AddManaPotion(Hero* player)
 {
 	player->SetData(player, Mp, player->GetData().mp + manaPotion);
+	player->SetData(player, Coin, player->GetData().coin - 20);
+	cout << "당신의 마나 : " << player->GetData().mp<<endl;
 }
 
 void Store::AddAttackPotion(Hero* player)
 {
 	player->SetData(player, AttackPower, player->GetData().attackPower + attackPotion);
+	player->SetData(player, Coin, player->GetData().coin - 40);
+	cout << "당신의 공격력 : " << player->GetData().attackPower<<endl;
+
 }

@@ -152,7 +152,7 @@ int Dungeon::FightMonster(Hero*& player, Monster*& monster, Monster*& monsterKin
                 int level = exp / 10;
                 player->SetData(player, Level, level + player->GetData().level);
                 player->SetData(player, Exp, exp % 10);
-                player->SetData(player, Coin, monsterKing->GetData().coin + player->GetData().coin);
+                player->SetData(player, Coin, monster->GetData().coin + player->GetData().coin);
                 continue; // 다음 루프에서 monsterKing과 싸움 시작
             }
 
