@@ -1,8 +1,8 @@
 #include "Framework.h"
 #include "GameManager.h"
-#include "Character.h"
 
-Character* GameManager::ChoiceJobs()
+
+Hero* GameManager::ChoiceJobs()
 {
 	cout << "******************************" << endl;
 	cout << "*           직업 선택         *" << endl;
@@ -11,12 +11,12 @@ Character* GameManager::ChoiceJobs()
 	cout << "*          3. 궁수            *" << endl;
 	cout << "******************************" << endl;
 	int num;
-	Character* player = nullptr;
+	Hero* player = nullptr;
 	cout << endl << "직업 선택 : ";
 	cin >> num;
 	if (num == 1) 
 	{
-		player = new Character(LoadDatas("전사", "player"));
+		player = new Warrior(LoadDatas("전사", "player"));
 		cout << "당신의 직업은 전사입니다. 행운을 빕니다." << endl;
 		return player;
 	}

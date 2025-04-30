@@ -11,7 +11,7 @@ public:
 
 	void Fight(Character* target) override;
 
-	virtual void MonsterSkill(Character* target) { AttackTarget(target); }
+	virtual void MonsterSkill(Character* target) { Character::Fight(target); }
 
 private:
 

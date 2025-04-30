@@ -105,4 +105,8 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ExelFile\Monster.csv" />
+    <None Include="ExelFile\Hero.csv" />
+  </ItemGroup>
 </Project>

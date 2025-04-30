@@ -38,6 +38,7 @@ enum StatType
 	AttackPower,
 	Exp,
 	Coin,
+	Level,
 	Mp,
 	Name,
 	SkillName,

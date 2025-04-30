@@ -1,6 +1,9 @@
 #pragma once
 #include "Framework.h"
 #include "Dungeon.h"
+#include "Store.h"
+#include "Hero.h"
+#include "Warrior.h"
 
 class GameManager
 {
@@ -16,13 +19,14 @@ public:
 		return instance;
 	}
 
-	Character* ChoiceJobs();
+	Hero* ChoiceJobs();
 
     void GamePlay() 
     {
-		Character* player = nullptr;
+		Hero* player = nullptr;
 		GameState gameState = ChoiceJob;
 		Dungeon dungeon;
+		Store store;
 		while (true) 
 		{
 			switch (gameState)
@@ -34,18 +38,22 @@ public:
 				break;
 			case VisitStore:
 				cout << "현재 상태는 '상점 방문' 입니다." << endl;
-				gameState = ChoiceDungeon;
+				
+				gameState = store.VisitStore(player);
 				break;
 			case ChoiceDungeon:
 				cout << "현재 상태는 '던전 선택' 입니다." << endl;
 				gameState = dungeon.StartDungeon(static_cast<Hero*>(player));
 
 				break;
-			case Boss:
+			case GameOver:
+				cout << "게임 오버" << endl;
+				return;
 
-				break;
-			default:
-				break;
+			case GameClear:
+				cout << "와우! 게임 클리어" << endl;
+				return;
+
 			}
 		}
     }

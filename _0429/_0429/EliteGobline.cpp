@@ -12,7 +12,7 @@ EliteGobline::~EliteGobline()
 
 void EliteGobline::MonsterSkill(Character* target)
 {
-	cout << "[스킬 : 해머 내려찍기] " << target << "에게" << GetData().skillDamage << "데미지!" << endl;
+	cout << "[스킬 : 해머 내려찍기] " << target->GetData().name << "에게" << GetData().skillDamage << "데미지!" << endl;
 	SetData(target, Hp, target->GetData().hp - GetData().skillDamage);
 }
 

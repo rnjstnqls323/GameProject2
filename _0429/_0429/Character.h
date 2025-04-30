@@ -16,6 +16,7 @@ public:
         case StatType::AttackPower: target->data.attackPower = value; break;
         case StatType::Exp:         target->data.exp = value; break;
         case StatType::Coin:        target->data.coin = value; break;
+        case StatType::Level:        target->data.level = value; break;
         case StatType::Mp:        target->data.mp = value; break;
         case StatType::SkillDamage:       target->data.skillDamage = value; break;
         }
@@ -30,7 +31,7 @@ public:
     }
     virtual void Fight(Character* target);
     void AttackTarget(Character* target); //∆Ú≈∏
-    bool IsDead(Character* target);
+    bool IsDead();
 
     
 protected:

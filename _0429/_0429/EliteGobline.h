@@ -9,7 +9,7 @@ public:
 
 	void MonsterSkill(Character* target) override;
 
-	void ThiefsInstinct(EliteGobline* gobline, Character* target);
+	//void ThiefsInstinct(EliteGobline* gobline, Character* target);
 
 private:
 

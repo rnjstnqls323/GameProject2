@@ -8,9 +8,11 @@ public:
 	Store() {}
 	~Store() {}
 
-	void AddHpPotion(Character* player);
-	void AddManaPotion(Character* player);
-	void AddAttackPotion(Character* player);
+	GameState VisitStore(Hero* player);
+	void JobUpgrade(Hero* player);
+	void AddHpPotion(Hero* player);
+	void AddManaPotion(Hero* player);
+	void AddAttackPotion(Hero* player);
 
 private:
 	int hPPotion = 30;

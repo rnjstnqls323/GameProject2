@@ -159,6 +159,10 @@
     <ClCompile Include="Store.cpp" />
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ExelFile\Hero.csv" />
+    <None Include="ExelFile\Monster.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
