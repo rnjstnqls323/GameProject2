@@ -13,7 +13,6 @@ using namespace std;
 #include "ExelTable.h"
 #include "Enums.h"
 
-<<<<<<< Updated upstream
 #include "ClassHeader.h"
 #include "Function.h"
 #include "Character.h"
