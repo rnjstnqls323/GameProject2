@@ -9,21 +9,9 @@ Warrior::Warrior(Datas data) : Hero(data)
 
 Warrior::~Warrior()
 {
-}
-void Character::AttackTarget(Character* target)
-{
-	if (!target || target->isDead()) return;
-
-	int damage = data.attackPower - target->data.defense;
-	if (damage < 0) damage = 5;
-
-	target->data.hp -= damage;
-	cout << "공격! 대상에게" << damage << "의 일반 데미지를 입혔습니다\n";
-
-	if (target->isDead())
-		cout << "대상이 사망했습니다.\n";
 
 }
+
 //스킬명,타겟 한테 데미지 출력
 //전사 스킬
 void Warrior::Skill(Character* target)
@@ -82,14 +70,10 @@ void Warrior::Promote()
 	//공격력증가
 	SetData(this, AttackPower, GetData().attackPower + jobData. attackPower);
 	//스킬명 변경
-	SetStringData(this, Skill, jobData.skill);
+	SetStringData(this, SkillName, jobData.skill);
 	//스킬 데미지 증가
-	SetData(this, SkillDamage, GatData().skillDamage + jobData. skillDamage);
+	SetData(this, SkillDamage, GetData().skillDamage + jobData. skillDamage);
 	//MP증가
 	SetData(this, Mp, GetData().mp + jobData. mp);
-
-
-
-
 
 }
