@@ -52,5 +52,3 @@ Datas LoadDatas(string name, string type)
 	return monster;
 }
 
-
-
