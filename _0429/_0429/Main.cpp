@@ -1,31 +1,12 @@
 #include "Framework.h"
-
+#include "GameManager.h"
 
 
 
 int main() {
 	/*vector<Monster> monster;
 	monster.push_back(LoadDatas("monster"));*/
-
-	GameState game = ChoiceJob;
-	while (true) {
-		switch (game)
-		{
-		case ChoiceJob:
-
-			break;
-		case VisitStore:
-
-			break;
-		case ChoiceDungeon:
-
-			break;
-		case Boss:
-
-			break;
-		default:
-			break;
-		}
-	}
-	
+	cout << "RPG게임 시작!" << endl;
+	GameManager& gameManager = GameManager::GetInstance();
+	gameManager.GamePlay();
 }

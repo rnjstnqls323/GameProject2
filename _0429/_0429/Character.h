@@ -1,5 +1,6 @@
 #pragma once
 #include "Framework.h"
+#include "ExelTable.h"
 
 class Character{
 public:

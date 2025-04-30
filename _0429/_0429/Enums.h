@@ -4,6 +4,8 @@ enum GameState
 	ChoiceJob,
 	VisitStore,
 	ChoiceDungeon,
+	GameOver,
+	GameClear
 };
 enum PlayerState
 {

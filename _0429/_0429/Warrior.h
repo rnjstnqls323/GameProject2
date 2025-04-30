@@ -1,5 +1,5 @@
 #pragma once
-#include "Framework.h"
+#include "Hero.h"
 
 
 
@@ -9,8 +9,6 @@ class Warrior : public Hero
 public:
 	Warrior(Datas data);
 	~Warrior();
-
-
 
 	void Skill(Character* target) override;
 	string JobFunction() override;

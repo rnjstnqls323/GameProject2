@@ -1,6 +1,6 @@
 #include "Hero.h"
 #include "Framework.h"
-#include "ExelTable.h"
+#include "ClassHeader.h"
 
 
 Hero::Hero(Datas data) : Character(data)

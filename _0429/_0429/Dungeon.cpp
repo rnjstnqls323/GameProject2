@@ -1,88 +1,136 @@
 #include "Framework.h"
 #include "Dungeon.h"
 
-PlayerState Dungeon(const int &level , Hero* player) //던전 입장 구현
+Dungeon::Dungeon()
 {
-	DungeonLevel dungeonLevel = static_cast<DungeonLevel>(level);
-	vector<Monster> monsters;
-	Monster* boss;
-	int number = 3;
 
-	switch (dungeonLevel) 
-	{
-	case Level1:
-		CreateMonsters(monsters,"slime",number);
-		FightMonster(player,monsters);
-		
-		break;
-
-	case Level2:
-		CreateMonsters(monsters, "skelleton", number);
-		FightMonster(player,monsters);
-		break;
-
-	case Level3:
-		CreateMonsters(monsters, "Goblin", number);
-		FightMonster(player,monsters);
-		break;
-
-	case Boss:
-
-		break;
-
-	default:
-		break;
-	}
-	//임시 반환
-	return Dead;
 }
 
-void CreateMonsters(vector<Monster>& monsters, string name, const int& number)
+Dungeon::~Dungeon()
 {
-	for (int i = 0; i < number; i++)
-	{
-		monsters.push_back(LoadDatas(name));
-	}
-	
+
 }
 
-void CreateBoss(Monster*& boss, BossName name)
+GameState Dungeon::StartDungeon(Hero* player) //던전 입장 구현
 {
-	switch (name)
-	{
-	default:
-		break;
-	}
-	boss = new Monster(); //보스 클래스로 변경할 것. + switch문으로 알맞는 보스 생성
+    int level = 0;
+    cout << "던전을 선택해주세요." << endl;
+    cout << "1. 슬라임 던전, 2. 스켈레톤 던전, 3. 고블린 던전, 4. 보스 던전" << endl;
+    cin >> level;
+    DungeonLevel dungeonLevel = static_cast<DungeonLevel>(level);
+    vector<Monster> monsters;
+    Monster* boss;
+    int deathNum = 0;
+    Monster* monster = nullptr;
+    Monster* monsterKing = nullptr;
+
+    switch (dungeonLevel)
+    {
+    case Level1:
+        cout << "슬라임 던전에 입장하셨습니다." << endl;
+        monster = new Monster(LoadDatas("슬라임", "monster"));
+        monsterKing = new Monster(LoadDatas("슬라임킹", "monster"));
+        cout << "슬라임 1마리, 슬라임킹 1마리가 소환되었습니다." << endl;
+        deathNum = FightMonster(player, monster, monsterKing);
+        if (deathNum == 1)
+        {
+            return GameOver;
+        }
+        else if (deathNum == 2)
+        {
+            cout << "던전 클리어!" << endl;
+            return VisitStore;
+        }
+    case Level2:
+        cout << "스켈레톤 던전에 입장하셨습니다." << endl;
+        monster = new Monster(LoadDatas("스켈레톤", "monster"));
+        monsterKing = new Monster(LoadDatas("스켈레톤킹", "monster"));
+        cout << "스켈레톤 1마리, 스켈레톤킹 1마리가 소환되었습니다." << endl;
+        deathNum = FightMonster(player, monster, monsterKing);
+        if (deathNum == 1)
+        {
+            return GameOver;
+        }
+        else if (deathNum == 2)
+        {
+            cout << "던전 클리어!" << endl;
+            return VisitStore;
+        }
+    case Level3:
+        cout << "고블린 던전에 입장하셨습니다." << endl;
+        monster = new Monster(LoadDatas("고블린", "monster"));
+        monsterKing = new Monster(LoadDatas("고블린킹", "monster"));
+        cout << "고블린 1마리, 고블린킹 1마리가 소환되었습니다." << endl;
+        deathNum = FightMonster(player, monster, monsterKing);
+        if (deathNum == 1)
+        {
+            return GameOver;
+        }
+        else if (deathNum == 2)
+        {
+            cout << "던전 클리어!" << endl;
+            return VisitStore;
+        }
+    case Boss:
+
+        break;
+
+    default:
+        break;
+    }
 }
 
-void RemoveMonsters(vector<Monster>& monsters, const int& number)
+//void Dungeon::CreateBoss(Monster*& boss, BossName name)
+//{
+//   switch (name)
+//   {
+//   default:
+//      break;
+//   }
+//   boss = new Monster(); //보스 클래스로 변경할 것. + switch문으로 알맞는 보스 생성
+//}
+
+void Dungeon::RemoveMonsters(vector<Monster>& monsters, const int& number)
 {
-	for (int i = 0; i < number; i++)
-	{
-		monsters.erase(monsters.begin());
-	}
+    for (int i = 0; i < number; i++)
+    {
+        monsters.erase(monsters.begin());
+    }
 }
 
-void RemoveBoss(Monster*& boss)
+void Dungeon::RemoveBoss(Monster*& boss)
 {
-	delete boss;
+    delete boss;
 }
 
-int FightMonster(Hero* &player,vector<Monster> &monsters)
+int Dungeon::FightMonster(Hero*& player, Monster*& monster, Monster*& monsterKing)
 {
-	//싸우는거 구현 
-	//player는 skill안쓰면 하나씩 공격가능
-	//while문으로 무한으로 돌기 / player.hp <=0 이거나 monsters의 피가 모두 닳으면 종료
-	//player사망시 return 0; 
-	//monsters 모두 사망시 return 1;
-	return 0;
+    while (true)
+    {
+        if (monster->IsDead(monster) == false)
+        {
+            player->Fight(monster);
+        }
+        else if (monster->IsDead(monster) == true)
+        {
+            if (monsterKing->IsDead(monsterKing) == true)
+            {
+                return 2;
+            }
+            player->Fight(monsterKing);
+        }
+        monster->Fight(player);
+        monsterKing->Fight(player);
+
+        if (player->IsDead(player) == true)
+        {
+            return 1;
+        }
+    }
 }
 
-int FightBoss(Hero*& player, vector<Monster>& monsters, Monster*& boss)
+int Dungeon::FightBoss(Hero*& player, vector<Monster>& monsters, Monster*& boss)
 {
-	// 보스전투구현할 것
-	return 0;
+    // 보스전투구현할 것
+    return 0;
 }
-
-

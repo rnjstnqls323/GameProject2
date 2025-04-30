@@ -6,3 +6,4 @@
 #include "EliteSkeleton.h"
 #include "EliteSlime.h"
 #include "LichKing.h"
+#include "Warrior.h"

@@ -31,7 +31,7 @@ string Warrior::JobFunction()
 	if (GetData().level <= 10)
 	{
 		cout << "레벨이 부족하여 전직할 수 없습니다.\n";
-		return;
+		return "실패";
 	}
 
 	int choice = 0;
@@ -64,6 +64,9 @@ string Warrior::JobFunction()
 void Warrior::Promote()
 {
 	string job = JobFunction(); //리턴된값을 넣겠다 직업을 가져옴
+	if (job == "실패") {
+		return;
+	}
 	Datas jobData = LoadDatas(job, "player");
 	//체력증가
 	SetData(this, Hp, GetData().hp + jobData.hp);

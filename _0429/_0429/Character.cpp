@@ -17,10 +17,10 @@ void Character::AttackTarget(Character* target)
 void Character::Fight(Character* target)
 {
 	AttackTarget(target);
-	printf("공격 성공! %s의 남은 체력: %d", target->GetData().name, target->GetData().hp);
+	cout << "공격 성공! " << target->GetData().name<<"의 남은 체력:"<< target->GetData().hp<<endl;
 }
 
-bool Character::IsDead(Character* target)
+bool Character::IsDead(Character* target) // 수정하기
 {
 	if (target->GetData().hp <= 0)
 		return true;

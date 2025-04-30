@@ -48,19 +48,19 @@
     <ClInclude Include="LichKing.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="archer.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Warrior.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Wizard.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Hero.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="ClassHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -92,13 +92,16 @@
     <ClCompile Include="EliteSlime.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="archer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Hero.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Warrior.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

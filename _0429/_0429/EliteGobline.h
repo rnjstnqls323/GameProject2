@@ -7,7 +7,7 @@ public:
 	EliteGobline(Datas data);
 	~EliteGobline();
 
-	void HammerSmash(EliteGobline* gobline, Character* target);
+	void MonsterSkill(Character* target) override;
 
 	void ThiefsInstinct(EliteGobline* gobline, Character* target);
 

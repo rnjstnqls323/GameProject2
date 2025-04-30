@@ -1,5 +1,5 @@
 #include "Framework.h"
-#include "Class.h"
+#include "ClassHeader.h"
 
 EliteSkeleton::EliteSkeleton(Datas data) : Monster(data)
 {
