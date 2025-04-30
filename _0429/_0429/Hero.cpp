@@ -3,9 +3,6 @@
 #include "ExelTable.h"
 
 
-
-//
-
 Hero::Hero(Datas data) : Character(data)
 {
 
