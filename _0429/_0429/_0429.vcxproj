@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="archer.h" />
     <ClInclude Include="Character.h" />
+    <ClInclude Include="ClassHeader.h" />
     <ClInclude Include="Dungeon.h" />
     <ClInclude Include="EliteGobline.h" />
     <ClInclude Include="EliteSkeleton.h" />
@@ -146,7 +147,6 @@
   <ItemGroup>
     <ClCompile Include="archer.cpp" />
     <ClCompile Include="Character.cpp" />
-    <ClCompile Include="Class.h" />
     <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="EliteGobline.cpp" />
     <ClCompile Include="EliteSkeleton.cpp" />

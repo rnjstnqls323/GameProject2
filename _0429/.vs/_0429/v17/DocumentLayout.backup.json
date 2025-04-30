@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\LichKing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\LichKing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BB0AA8-66A6-4C04-8A59-57A4E9CC324B}|_0429\\_0429.vcxproj|solutionrelative:_0429\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LichKing.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\LichKing.cpp",
+              "RelativeDocumentMoniker": "_0429\\LichKing.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\LichKing.cpp",
+              "RelativeToolTip": "_0429\\LichKing.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T05:16:37.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Hero.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\GameProject2\\_0429\\_0429\\Hero.h",
               "RelativeDocumentMoniker": "_0429\\Hero.h",
@@ -26,8 +43,7 @@
               "RelativeToolTip": "_0429\\Hero.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T04:57:19.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T04:57:19.275Z"
             }
           ]
         }

@@ -2,7 +2,7 @@
 enum GameState
 {
 	ChoiceJob,
-	VisitStroe,
+	VisitStore,
 	ChoiceDungeon,
 };
 enum PlayerState

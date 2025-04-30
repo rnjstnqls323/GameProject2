@@ -1,5 +1,5 @@
 #include "Framework.h"
-#include "Class.h"
+
 
 LichKing::LichKing(Datas data) : Monster(data)
 {

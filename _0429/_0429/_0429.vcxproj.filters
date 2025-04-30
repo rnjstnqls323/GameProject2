@@ -60,6 +60,9 @@
     <ClInclude Include="Hero.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="ClassHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -70,9 +73,6 @@
     </ClCompile>
     <ClCompile Include="Character.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Class.h">
-      <Filter>헤더 파일</Filter>
     </ClCompile>
     <ClCompile Include="Dungeon.cpp">
       <Filter>소스 파일</Filter>

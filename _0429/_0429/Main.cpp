@@ -14,11 +14,14 @@ int main() {
 		case ChoiceJob:
 
 			break;
-		case VisitStroe:
+		case VisitStore:
+
 			break;
 		case ChoiceDungeon:
+
 			break;
 		case Boss:
+
 			break;
 		default:
 			break;

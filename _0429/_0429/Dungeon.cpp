@@ -1,5 +1,5 @@
+#include "Framework.h"
 #include "Dungeon.h"
-#include "Enums.h"
 
 PlayerState Dungeon(const int &level , Hero* player) //던전 입장 구현
 {

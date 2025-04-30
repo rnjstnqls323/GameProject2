@@ -13,4 +13,6 @@ using namespace std;
 #include "ExelTable.h"
 #include "Enums.h"
 
+#include "ClassHeader.h"
+#include "Function.h"
 
