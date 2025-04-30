@@ -43,7 +43,7 @@ GameState Store::VisitStore(Hero* player)
 			
 			break;
 		case 4:
-			
+			JobUpgrade(player);
 			break;
 		default:
 			cout << "상점을 종료합니다." << endl;
@@ -52,6 +52,11 @@ GameState Store::VisitStore(Hero* player)
 		}
 	}
 	return ChoiceDungeon;
+}
+
+void Store::JobUpgrade(Hero* player)
+{
+	player->Promote();
 }
 
 void Store::AddHpPotion(Hero* player)

@@ -35,7 +35,10 @@ string Warrior::JobFunction()
 	}
 
 	int choice = 0;
-	
+	if (GetData().name != "전사") {
+		cout << "이미 전직을 하였습니다."<<endl;
+		return "실패";
+	}
 	while (true)
 	{
 		cout << "전직할 직업을 선택하세요:\n";
@@ -68,6 +71,8 @@ void Warrior::Promote()
 		return;
 	}
 	Datas jobData = LoadDatas(job, "player");
+	//직업 이름 변경
+	SetStringData(this, Name, job);
 	//체력증가
 	SetData(this, Hp, GetData().hp + jobData.hp);
 	//공격력증가
