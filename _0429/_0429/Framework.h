@@ -16,7 +16,6 @@ using namespace std;
 <<<<<<< Updated upstream
 #include "ClassHeader.h"
 #include "Function.h"
-=======
 #include "Character.h"
 #include "Monster.h"
 #include "Hero.h"
@@ -25,5 +24,4 @@ using namespace std;
 #include "EliteSkeleton.h"
 #include "LichKing.h"
 
->>>>>>> Stashed changes
 

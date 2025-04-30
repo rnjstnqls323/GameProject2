@@ -10,9 +10,15 @@ Character::~Character()
 
 void Character::AttackTarget(Character* target)
 {
-	target->data.hp = target->GetData().hp - GetData().attackPower;
+	SetData(target, Hp, -GetData().attackPower);
 }
 
+
+void Character::Fight(Character* target)
+{
+	AttackTarget(target);
+	printf("공격 성공! %s의 남은 체력: %d", target->GetData().name, target->GetData().hp);
+}
 
 bool Character::IsDead(Character* target)
 {
